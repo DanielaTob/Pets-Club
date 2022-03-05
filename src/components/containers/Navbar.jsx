@@ -1,5 +1,5 @@
 import React from "react";
-
+import Logo from "../../assets/images/logo.png"
 
 export default function Navbar() {
   return (
@@ -8,9 +8,9 @@ export default function Navbar() {
         <div className="px-20">
               <img
                   className="h-20 w-20"
-                  src="https://i.ibb.co/zGyzkYm/sticker-pets-club.png"
+                  src={Logo}
                   alt="Logo"
-                />
+              />
         </div>        
       </nav>
     </div>
