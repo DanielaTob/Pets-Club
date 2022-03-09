@@ -3,6 +3,8 @@ import Logo from "../../assets/images/logo.png"
 import { MdHome } from "react-icons/md";
 import { MdShoppingBag  } from "react-icons/md";
 import { MdShoppingCart  } from "react-icons/md";
+import { Link } from "react-router-dom";
+
 
 export default function Navbar() {
   return (
@@ -18,21 +20,21 @@ export default function Navbar() {
               <div className=" flex flex-wrap items-center">
                 <ul className="flex lg:flex-row md:flex-row sm:flex-row list-none ml-auto">
                   <li className="nav-item">
-                    <a className="px-3 py-2 flex  items-center text-sky-400 hover:opacity-75">
+                    <Link to="/" className="px-3 py-2 flex  items-center text-sky-400 hover:opacity-75">
                       <MdHome className="h-9 w-9  text-sky-400 opacity-75" />
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="nav-item">
-                    <a className="px-3 py-2 flex items-center text-sky-400 hover:opacity-75">
+                    <Link to="/Shop" className="px-3 py-2 flex items-center text-sky-400 hover:opacity-75">
                       <MdShoppingBag className="h-9 w-9  text-sky-400 opacity-75"/>
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="nav-item">
-                    <a className="px-3 py-2 flex items-center text-sky-400 hover:opacity-75">
+                    <Link to="/Cart" className="px-3 py-2 flex items-center text-sky-400 hover:opacity-75">
                       <MdShoppingCart className="h-9 w-9 text-sky-400 opacity-75"/>
-                    </a>
+                    </Link>
                   </li>
 
                 </ul>
