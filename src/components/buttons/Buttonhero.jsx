@@ -6,7 +6,7 @@ export default function Buttonhero() {
   return (
     
     <Link to="/Shop">
-      <button className="btn btn-info text-primary-content ">Comencemos</button>
+      <button className="btn btn-info text-primary-content">Comencemos</button>
     </Link>
     
   )

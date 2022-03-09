@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Shop from './views/shop/Shop';
 import Cart from './views/cart/Cart';
+import Category from './views/Categories/Category';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -15,6 +16,7 @@ ReactDOM.render(
         <Route index="/Landing" element={<Landing />}/>
         <Route path='/Shop' element={<Shop />}/>
         <Route path='/Cart' element={<Cart />}/>
+        <Route path='/Category' element={<Category />}/>
       </Route>
     </Routes>
   </BrowserRouter>,
