@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Shop from './views/shop/Shop';
 import Cart from './views/cart/Cart';
 import Category from './views/Categories/Category';
+import ViewProduct from './views/product/ViewProduct';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Route path='/Shop' element={<Shop />}/>
         <Route path='/Cart' element={<Cart />}/>
         <Route path='/Category' element={<Category />}/>
+        <Route path='/ViewProduct' element={<ViewProduct />}/>
       </Route>
     </Routes>
   </BrowserRouter>,

@@ -4,6 +4,7 @@ import { MdHome } from "react-icons/md";
 import { MdShoppingBag  } from "react-icons/md";
 import { MdShoppingCart  } from "react-icons/md";
 import { Link } from "react-router-dom";
+import Indicator from "../buttons/Indicator";
 
 export default function Navbar() {
   return (
@@ -30,10 +31,11 @@ export default function Navbar() {
                     </Link>
                   </li>
 
-                  <li className="nav-item">
+                  <li className="nav-item indicator">
                     <Link to="/Cart" className="px-3 py-2 flex items-center text-sky-400 hover:opacity-75">
                       <MdShoppingCart className="h-9 w-9 text-sky-400 opacity-75"/>
                     </Link>
+                    <Indicator/>
                   </li>
 
                 </ul>

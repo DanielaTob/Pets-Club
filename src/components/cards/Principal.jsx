@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Product1 from '../../assets/images/product1.png'
 import Addcart from '../buttons/Addcart'
+
 
 export default function Principal() {
   return (
@@ -8,9 +10,9 @@ export default function Principal() {
 <div className='grid lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-2 gap-10 p-4'>
     <div class="max-w-sm rounded-lg drop-shadow-2xl bg-sky-100 ">
     <a href="#">
-        <div>
+        <Link to="/ViewProduct">
         <img class="p-8 rounded-t-lg" src={Product1} alt="product image" />
-        </div>
+        </Link>
     </a>
     <div class="px-5 pb-5">
         <a href="#">
