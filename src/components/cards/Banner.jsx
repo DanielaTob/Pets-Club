@@ -12,7 +12,7 @@ export default function Banner() {
                     <img className="xl:hidden w-full" src={img1} alt="img1" />
                 </div>
                 <div className="flex justify-center items-center flex-col xl:w-2/5 md:px-6 sm:w-3/4 md:w-2/4">
-                    <div className="">
+                    <div>
                         <h1 className="xl:text-4xl text-3xl font-bold leading-9 text-gray-900">Pets <span className='text-sky-400'>Club</span></h1>
                     </div>
                     <div className="mt-4">
