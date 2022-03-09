@@ -1,4 +1,4 @@
-  {
+{
   "name": "pets-club-veterinary",
   "version": "0.1.0",
   "private": true,
@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
+    "daisyui": "^2.6.3",
     "react": "^17.0.2",
     "react-animated-slider": "^1.1.4",
     "react-dom": "^17.0.2",

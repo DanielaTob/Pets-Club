@@ -26,7 +26,7 @@ export default function Banner() {
                         <img className="xl:hidden w-full" src={img1} alt="sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-1" />
                     </div>
                     <div className="md:hidden w-full">
-                        <img className="hidden xl:block w-full" src={img1} alt="behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1" />
+                        <img className="hidden xl:block w-full" src={img2} alt="behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1" />
                         <img className="xl:hidden w-full" src={img2} alt="behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1-1" />
                     </div>
                 </div>

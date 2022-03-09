@@ -6,7 +6,7 @@ import Carousel from './components/containers/Carousel';
 
 function App() {
   return (
-    <div>
+    <div className='bg-white'>
       <Navbar/>
         <Outlet/>
       <Footer />
