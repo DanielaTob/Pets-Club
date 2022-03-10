@@ -1,6 +1,7 @@
 import React from 'react'
 import AddView from '../buttons/AddView'
-import ImgView from '../../assets/images/productView.png'
+import product1 from '../../assets/images/p4.jpg'
+
 
 export default function ProductDetails() {
   return (
@@ -8,7 +9,7 @@ export default function ProductDetails() {
 <section className="text-gray-700 body-font overflow-hidden bg-white">
   <div className="container px-5 py-24 mx-auto">
     <div className="lg:w-4/5 mx-auto flex flex-wrap">
-      <img alt="ecommerce" className="lg:w-1/2 w-full object-cover object-center rounded border border-gray-200" src={ImgView}/>
+      <img alt="ecommerce" className="lg:w-1/2 w-full object-cover object-center rounded border border-gray-200" src={product1}/>
       <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
         <h2 className="text-sm title-font text-gray-500 tracking-widest">PETS <span>CLUB</span></h2>
         <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">Max Cat Adulto Pollo</h1>

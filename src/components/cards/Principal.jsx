@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Product1 from '../../assets/images/product1.png'
+import Product1 from '../../assets/images/p4.jpg'
 import Addcart from '../buttons/Addcart'
 
 
 export default function Principal() {
   return (
 
-<div className='grid lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-2 gap-10 p-4'>
-    <div class="max-w-sm rounded-lg drop-shadow-2xl bg-sky-100 ">
+<div className='grid lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-2 gap-10 p-8'>
+    <div class="max-w-sm rounded-lg drop-shadow-2xl bg-white ">
     <a href="#">
         <Link to="/ViewProduct">
         <img class="p-8 rounded-t-lg" src={Product1} alt="product image" />
@@ -27,7 +27,7 @@ export default function Principal() {
         </div>
     </div>
 </div>
-<div class="max-w-sm rounded-lg drop-shadow-2xl bg-sky-100 ">
+<div class="max-w-sm rounded-lg drop-shadow-2xl bg-white ">
     <a href="#">
         <div>
         <img class="p-8 rounded-t-lg" src={Product1} alt="product image" />
@@ -48,7 +48,7 @@ export default function Principal() {
 </div>
 
 
-<div class="max-w-sm rounded-lg drop-shadow-2xl bg-sky-100 ">
+<div class="max-w-sm rounded-lg drop-shadow-2xl bg-white">
     <a href="#">
         <div>
         <img class="p-8 rounded-t-lg" src={Product1} alt="product image" />
@@ -69,7 +69,7 @@ export default function Principal() {
 </div>
 
 
-<div class="max-w-sm rounded-lg drop-shadow-2xl bg-sky-100 ">
+<div class="max-w-sm rounded-lg drop-shadow-2xl bg-white">
     <a href="#">
         <div>
         <img class="p-8 rounded-t-lg" src={Product1} alt="product image" />
