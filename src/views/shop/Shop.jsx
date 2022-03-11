@@ -10,7 +10,6 @@ export default function Shop() {
         <Banner/>
         <Categories/>
         <Popular />
-        <SliderLogo />
     </div>
   )
 }

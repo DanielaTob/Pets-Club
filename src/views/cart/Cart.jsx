@@ -1,9 +1,10 @@
 import React from 'react'
+import Car from '../../components/containers/Car'
 
 export default function Cart() {
   return (
     <div>
-        <h1 className='bg-green-500 h-screen'>Cart</h1>
+        <Car />
     </div>
   )
 }
