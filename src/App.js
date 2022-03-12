@@ -10,9 +10,9 @@ import { useState } from 'react';
 function App() {
   console.log(categories);
   const [data, setData]=useState(categories)
-
+  const [cart, setCart]=useState([]);
   return (
-    <Context.Provider value={{ data, setData }}>
+    <Context.Provider value={{ data, setData, cart, setCart }}>
       <div className='bg-white'>
         <Navbar/>
           <Outlet/>

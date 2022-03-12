@@ -1,12 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 export default function Orden() {
   return (
     <div className='pt-6'>
-      <Link to="/Category">
+      <NavLink to="/Category/Alimento">
         <button className="btn btn-info text-base font-medium leading-none text-white">Ordenar</button>
-        </Link>
+        </NavLink>
     </div>
   )
 }

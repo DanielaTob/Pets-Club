@@ -18,7 +18,9 @@ ReactDOM.render(
         <Route index="/Landing" element={<Landing />}/>
         <Route path='/Shop' element={<Shop />}/>
         <Route path='/Cart' element={<Cart />}/>
-        <Route path='/Category' element={<Category />}/>
+        <Route path='/Category' element={<Category />}> 
+        <Route path=':Category' element={<Category />}/>
+        </Route>
         <Route path='/ViewProduct/:id' element={<ViewProduct />}/>
       </Route> 
     </Routes>

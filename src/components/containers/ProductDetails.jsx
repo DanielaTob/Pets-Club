@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import AddView from "../buttons/AddView";
-import product1 from "../../assets/images/p4.jpg";
 import { useParams } from "react-router-dom";
 import Context from "../../hooks/Context";
+import Counter from "../buttons/Counter";
 
 const ProductDetails = () => {
   const info = useParams();
@@ -32,33 +32,14 @@ const ProductDetails = () => {
               </h1>
               <p className="leading-relaxed">{response[0].description}</p>
               <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-200 mb-5">
-                <div className="flex items-center">
+                <div className="flex items-center gap-10">
                   <span class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 ">
                     {response[0].peso}
                   </span>
-                  <span className="mr-3">Cantidad</span>
-                  <div className="relative">
-                    <select className="rounded border appearance-none border-gray-400 py-2 focus:outline-none focus:border-red-500 text-base pl-3 pr-10">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                    </select>
-
-                    <span className="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        className="w-4 h-4"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M6 9l6 6 6-6"></path>
-                      </svg>
-                    </span>
-                  </div>
+                  
+                  
+                    <Counter/>
+                  
                 </div>
               </div>
               <div className="flex">
