@@ -40,7 +40,7 @@ export default function Footer() {
         </ul>
       </div>
 
-      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-sky-500 lg:my-8" />
+      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-sky-500 lg:my-8"/>
     <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-600">© 2022 <a href="https://github.com/DanielaTob" class="hover:underline">Daniela Tobar</a>. All Rights Reserved.
     </span>
     </footer>

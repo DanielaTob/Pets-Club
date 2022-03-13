@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import Context from "../../hooks/Context";
 import Counter from "../buttons/Counter";
 import { BsFillTrashFill } from "react-icons/bs";
@@ -6,8 +6,6 @@ import { BsFillTrashFill } from "react-icons/bs";
 const CardCart = () => {
   const contexto = useContext(Context);
   
-  /* const [cart, setCart] = useState(contexto.cart); */
-  /* console.log(contexto.cart); */
   return (
     <>
       {contexto.cart.map((items) => {
