@@ -5,8 +5,9 @@ import { BsFillTrashFill } from "react-icons/bs";
 
 const CardCart = () => {
   const contexto = useContext(Context);
-  const [cart, setCart] = useState(contexto.cart);
-  console.log(contexto.cart);
+  
+  /* const [cart, setCart] = useState(contexto.cart); */
+  /* console.log(contexto.cart); */
   return (
     <>
       {contexto.cart.map((items) => {

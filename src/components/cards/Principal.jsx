@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import Context from "../../hooks/Context";
-import Addcart from "../buttons/Addcart";
+
 
 
 
@@ -9,12 +9,17 @@ const Principal = () => {
   const contexto = useContext(Context);
   const [categorias, setCategorias] = useState("");
   const { Category } = useParams();
-  console.log(Category);
+  /* console.log(Category); */
 
   useEffect(() => {
     setCategorias(Category);
   }, [Category]);
 
+
+  function AddCart(objeto){
+    const array=[...contexto.cart, objeto];
+    contexto.setCart(array);
+  }
   return (
     <>
       
@@ -48,7 +53,9 @@ const Principal = () => {
                     <span className="text-3xl font-bold text-gray-900 dark:text-dark">
                       {items.price}
                     </span>
-                    <Addcart />
+      
+                    <button onClick={()=>AddCart(items)} className="btn btn-info text-base font-medium leading-none text-white">Agregar</button>
+                  
                   </div>
                 </div>
               </div>
