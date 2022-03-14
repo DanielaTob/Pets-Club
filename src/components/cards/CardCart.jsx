@@ -1,10 +1,21 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import Context from "../../hooks/Context";
-import Counter from "../buttons/Counter";
 import { BsFillTrashFill } from "react-icons/bs";
+import { AiOutlinePlus } from "react-icons/ai";
+import { AiOutlineMinus } from "react-icons/ai";
 
 const CardCart = () => {
   const contexto = useContext(Context);
+
+  const [counter, setCounter] = useState(1);
+   function add() {
+     setCounter(counter + 1);
+   }
+   function remove() {
+     if (counter - 1 < 1) {
+     } else setCounter(counter - 1);
+   }
+
   
   return (
     <>
@@ -17,7 +28,29 @@ const CardCart = () => {
                 <span class="md:text-md font-medium text-black">
                   {items.name}
                 </span>
-                <Counter />
+              
+                <div className="flex gap-3">
+
+               <button
+                      onClick={remove}
+                      className="btn btn-info btn-xs flex gap-3 pointer text-white"
+                    >
+                      <AiOutlineMinus />
+                    </button>
+
+                    <span className="text-black">{items.counter}</span>
+
+                    <button
+                      onClick={add}
+                      className="btn btn-info btn-xs flex gap-3 pointer text-white"
+                    >
+                      <AiOutlinePlus />
+                    </button> 
+
+
+                </div>
+
+
               </div>
             </div>
             <div class="flex justify-center items-center">
