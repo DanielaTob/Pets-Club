@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useContext } from "react";
+import Context from "../../hooks/Context";
 import ContinueShop from "../buttons/ContinueShop";
 import CardCart from "../cards/CardCart";
 
 
 function Car() {
+  const contexto = useContext(Context);
+  const sumTotal = () => {
+    const reducer = (accumalator, currentValue) => {
+    const { price } = currentValue;
+      return accumalator + price;
+    };
+    const sum = contexto.cart.reduce(reducer, 0);
+    console.log(contexto);
+    return sum;
+  };
+  
+
   return (
     <div className="bg-white">
       <div className="py-12">
@@ -25,7 +38,7 @@ function Car() {
                   <span className="text-xl font-medium text-black block pb-3">
                     Detalles de la compra
                   </span>
-                  <span className="text-xs text-gray-400 ">Total</span>
+                  <span className="text-xs text-gray-400 ">{sumTotal()}</span>
                   <div className="overflow-visible flex justify-between items-center mt-2"></div>
                   <div className="grid grid-cols-3 gap-2 pt-2 mb-3"></div>
                   <button className="btn btn-wide btn-info text-white">
