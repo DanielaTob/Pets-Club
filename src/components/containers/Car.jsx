@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import Context from "../../hooks/Context";
 import ContinueShop from "../buttons/ContinueShop";
 import CardCart from "../cards/CardCart";
@@ -6,6 +6,7 @@ import CardCart from "../cards/CardCart";
 
 function Car() {
   const contexto = useContext(Context);
+  const [whatsappmensaje, setwhatsappmensaje] = useState("");
   const sumTotal = () => {
     const reducer = (accumalator, currentValue) => {
     const { price } = currentValue;
@@ -16,6 +17,19 @@ function Car() {
     return sum;
   };
   
+
+
+  const whatsapp = () => {
+    let message = `Hola Pets Club, me gustaria pedir: ${contexto.cart.map((item) => {
+      return (
+          item.name 
+      )
+  })}\n\nTOTAL: ${sumTotal()}`
+  message = encodeURI(message)
+  return message
+  }
+
+
 
   return (
     <div className="bg-white">
@@ -41,9 +55,9 @@ function Car() {
                   <span className="text-xs text-gray-400 ">{sumTotal()}</span>
                   <div className="overflow-visible flex justify-between items-center mt-2"></div>
                   <div className="grid grid-cols-3 gap-2 pt-2 mb-3"></div>
-                  <button className="btn btn-wide btn-info text-white">
-                    Finalizar compra
-                  </button>
+                  <a onClick={()=>setwhatsappmensaje(whatsapp)} href={`https://api.whatsapp.com/send?phone=+573004567507&text=${whatsappmensaje}`}>
+                  <button class="btn btn-info"> Finalizar compra</button>
+                  </a>
                 </div>
               </div>
             </div>
