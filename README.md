@@ -8,7 +8,7 @@ La veterinaria Pets Club es una empresa dedicada a la venta y distribución de a
 Desarrollamos una interfaz interactiva donde se recibe los inputs del usuario y se los entrega al dueño del comercio como un pedido digital por medio de la aplicación WhatsApp.
 
 
-[![Dise-o-sin-t-tulo.png](https://i.postimg.cc/9fD8gfLx/Dise-o-sin-t-tulo.png)](https://postimg.cc/FfQV7h5c)
+[![inicio.png](https://i.postimg.cc/pdPGxZV6/inicio.png)](https://postimg.cc/NKP7kRH6) 
 
 [![Dise-o-sin-t-tulo-1.png](https://i.postimg.cc/6339mnDk/Dise-o-sin-t-tulo-1.png)](https://postimg.cc/R3k536Cd)
 
