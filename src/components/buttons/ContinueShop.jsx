@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function ContinueShop() {
   return (
     <Link to="/Category/Alimento" class="flex items-center">
-      <button class="btn btn-info gap-2 text-white"><FaArrowLeft />Sigue comprando</button>
+      <button className="btn btn-info gap-2 text-white"><FaArrowLeft />Sigue comprando</button>
     </Link>
   );
 }

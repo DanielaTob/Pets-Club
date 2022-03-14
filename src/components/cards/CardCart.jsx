@@ -21,11 +21,11 @@ const CardCart = () => {
     <>
       {contexto.cart.map((items) => {
         return (
-          <div class="flex justify-between items-center mt-6 pt-6">
-            <div class="flex items-center">
+          <div className="flex justify-between items-center mt-6 pt-6">
+            <div className="flex items-center">
               <img src={items.image} width="60" class="rounded-full" />
-              <div class="flex flex-col ml-3">
-                <span class="md:text-md font-medium text-black">
+              <div className="flex flex-col ml-3">
+                <span className="md:text-md font-medium text-black">
                   {items.name}
                 </span>
               
@@ -53,8 +53,8 @@ const CardCart = () => {
 
               </div>
             </div>
-            <div class="flex justify-center items-center">
-              <div class="pr-8 ">
+            <div className="flex justify-center items-center">
+              <div className="pr-8 ">
                 <span class="text-lg text-black font-medium">
                   {items.price}
                 </span>
