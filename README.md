@@ -7,15 +7,15 @@ La veterinaria Pets Club es una empresa dedicada a la venta y distribución de a
 ## Comenzando 🚀
 Desarrollamos una interfaz interactiva donde se recibe los inputs del usuario y se los entrega al dueño del comercio como un pedido digital por medio de la aplicación WhatsApp.
 
-[![1.png](https://i.postimg.cc/nzfZVqm9/1.png)](https://postimg.cc/rdj7Q0Qq)
+[![Dise-o-sin-t-tulo.png](https://i.postimg.cc/9fD8gfLx/Dise-o-sin-t-tulo.png)](https://postimg.cc/FfQV7h5c)
 
-[![2.png](https://i.postimg.cc/NfCc93Tc/2.png)](https://postimg.cc/SJ95HtDT)
+[![Dise-o-sin-t-tulo-1.png](https://i.postimg.cc/6339mnDk/Dise-o-sin-t-tulo-1.png)](https://postimg.cc/R3k536Cd)
 
-[![3.png](https://i.postimg.cc/jdFpdz0q/3.png)](https://postimg.cc/fJY28SR1)
+[![Dise-o-sin-t-tulo-2.png](https://i.postimg.cc/SQfBMJ38/Dise-o-sin-t-tulo-2.png)](https://postimg.cc/rzzZ6F8F)
 
-[![4.png](https://i.postimg.cc/tTpfmkPk/4.png)](https://postimg.cc/TyNCKrt5)
+[![Dise-o-sin-t-tulo-3.png](https://i.postimg.cc/nrNBzH4L/Dise-o-sin-t-tulo-3.png)](https://postimg.cc/9wtrgHN3)
 
-[![5.png](https://i.postimg.cc/N07CTXVH/5.png)](https://postimg.cc/f3yvQVMz)
+[![Dise-o-sin-t-tulo-4.png](https://i.postimg.cc/BQDMKyXz/Dise-o-sin-t-tulo-4.png)](https://postimg.cc/QH8QLfgg)
 
 
 ## Mira Deployment para conocer como desplegar el proyecto 💻
@@ -36,7 +36,7 @@ https://danielatobar.atlassian.net/jira/software/projects/PET/boards/5/roadmap?s
 * [React](https://reactjs.org/) - Librería de JavaScrip.
 
 ## Autores ✒️
-* **Daniela Tobar Moreno** - *Desarrolladora* - [DTM](https://github.com/DanielaTob)
+* **Daniela Tobar Moreno** - *Desarrolladora* - [GitHub](https://github.com/DanielaTob)
 
 
 
