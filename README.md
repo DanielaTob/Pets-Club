@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# [![android-icon-72x72.png](https://i.postimg.cc/yx8sZs8F/android-icon-72x72.png)](https://postimg.cc/JDvfwwJn) Pets Club 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+La veterinaria Pets Club es una empresa dedicada a la venta y distribución de alimento para mascotas, accesorios y medicamentos, consolidándose como uno de los mejores centros de salud y belleza para mascotas de la región.
 
-## Available Scripts
+[![smartmockups-l0qsuoxl-removebg-preview.png](https://i.postimg.cc/ZnLR3wmd/smartmockups-l0qsuoxl-removebg-preview.png)](https://postimg.cc/PvPTnzPX)
 
-In the project directory, you can run:
+## Comenzando 🚀
+Desarrollamos una interfaz interactiva donde se recibe los inputs del usuario y se los entrega al dueño del comercio como un pedido digital por medio de la aplicación WhatsApp.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![inicio.png](https://i.postimg.cc/pdPGxZV6/inicio.png)](https://postimg.cc/NKP7kRH6) 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[![Dise-o-sin-t-tulo-1.png](https://i.postimg.cc/6339mnDk/Dise-o-sin-t-tulo-1.png)](https://postimg.cc/R3k536Cd)
 
-### `npm test`
+[![Dise-o-sin-t-tulo-2.png](https://i.postimg.cc/SQfBMJ38/Dise-o-sin-t-tulo-2.png)](https://postimg.cc/rzzZ6F8F)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![Dise-o-sin-t-tulo-3.png](https://i.postimg.cc/nrNBzH4L/Dise-o-sin-t-tulo-3.png)](https://postimg.cc/9wtrgHN3)
 
-### `npm run build`
+[![Dise-o-sin-t-tulo-4.png](https://i.postimg.cc/BQDMKyXz/Dise-o-sin-t-tulo-4.png)](https://postimg.cc/QH8QLfgg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Mira Deployment para conocer como desplegar el proyecto 💻
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://pets-club-danielatob.vercel.app/
 
-### `npm run eject`
+## Product Backlog 📎
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+https://danielatobar.atlassian.net/jira/software/projects/PET/boards/5/roadmap?shared=&atlOrigin=eyJpIjoiZjM4MGI2YzZmMjNjNGY2MjliOTMwZWZlNTc4MGFjOGEiLCJwIjoiaiJ9
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Construido con 🛠️
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* [Tailwind CSS](https://tailwindcss.com/) - FrameWork de estilos usado.
+* [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start) - npm package.
+* [React-icons](https://react-icons.github.io/react-icons/) - Librería React usada.
+* [react-fast-marquee](https://www.npmjs.com/package/react-fast-marquee) - Slider.
+* [React Animated Slider](https://eb1.it/react-animated-slider/) - Slider.
+* [React](https://reactjs.org/) - Librería de JavaScrip.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Autores ✒️
+* **Daniela Tobar Moreno** - *Desarrolladora* - [GitHub](https://github.com/DanielaTob)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
