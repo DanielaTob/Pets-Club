@@ -1,8 +1,8 @@
 # [![android-icon-72x72.png](https://i.postimg.cc/yx8sZs8F/android-icon-72x72.png)](https://postimg.cc/JDvfwwJn) Pets Club 
 
-La veterinaria Pets Club es una empresa dedicada a la venta y distribución de alimento para mascotas, accesorios y medicamentos, consolidándose como uno de los mejores centros de salud y belleza para mascotas de la región.
+Pets Club es una empresa dedicada a la venta y distribución de alimento para mascotas, accesorios y medicamentos, consolidándose como uno de los mejores centros de salud y belleza para mascotas de la región.
 
-[![smartmockups-l0qsuoxl-removebg-preview.png](https://i.postimg.cc/ZnLR3wmd/smartmockups-l0qsuoxl-removebg-preview.png)](https://postimg.cc/PvPTnzPX)
+[![smartmockups-l0u5saet-removebg-preview.png](https://i.postimg.cc/BnnFfR7b/smartmockups-l0u5saet-removebg-preview.png)](https://postimg.cc/WhxzMYvc)
 
 ## Comenzando 🚀
 Desarrollamos una interfaz interactiva donde se recibe los inputs del usuario y se los entrega al dueño del comercio como un pedido digital por medio de la aplicación WhatsApp.
