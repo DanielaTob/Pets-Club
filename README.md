@@ -8,15 +8,15 @@ Pets Club is a company dedicated to the sale and distribution of pet food, acces
 An interactive interface was developed where user inputs are received and delivered to the store owner as a digital order via the WhatsApp application.
 
 
-[![inicio.png](https://i.postimg.cc/pdPGxZV6/inicio.png)](https://postimg.cc/NKP7kRH6) 
+[![Fire-Shot-Capture-027-Pets-Club-Veterinaria-pets-club-vercel-app.png](https://i.postimg.cc/DyHMdsh9/Fire-Shot-Capture-027-Pets-Club-Veterinaria-pets-club-vercel-app.png)](https://postimg.cc/ykhj7Dkj)
 
-[![Dise-o-sin-t-tulo-1.png](https://i.postimg.cc/6339mnDk/Dise-o-sin-t-tulo-1.png)](https://postimg.cc/R3k536Cd)
+[![Fire-Shot-Capture-028-Pets-Club-Veterinaria-pets-club-vercel-app.png](https://i.postimg.cc/Jnr6453k/Fire-Shot-Capture-028-Pets-Club-Veterinaria-pets-club-vercel-app.png)](https://postimg.cc/xkZy6H4f)
 
-[![Dise-o-sin-t-tulo-2.png](https://i.postimg.cc/SQfBMJ38/Dise-o-sin-t-tulo-2.png)](https://postimg.cc/rzzZ6F8F)
+[![Fire-Shot-Capture-029-Pets-Club-Veterinaria-pets-club-vercel-app.png](https://i.postimg.cc/zDPt8Wyy/Fire-Shot-Capture-029-Pets-Club-Veterinaria-pets-club-vercel-app.png)](https://postimg.cc/gr8qKxqp)
 
-[![Dise-o-sin-t-tulo-3.png](https://i.postimg.cc/nrNBzH4L/Dise-o-sin-t-tulo-3.png)](https://postimg.cc/9wtrgHN3)
+[![Fire-Shot-Capture-030-Pets-Club-Veterinaria-pets-club-vercel-app.png](https://i.postimg.cc/PrgS8jzh/Fire-Shot-Capture-030-Pets-Club-Veterinaria-pets-club-vercel-app.png)](https://postimg.cc/2VxQPgKX)
 
-[![Dise-o-sin-t-tulo-4.png](https://i.postimg.cc/BQDMKyXz/Dise-o-sin-t-tulo-4.png)](https://postimg.cc/QH8QLfgg)
+[![Fire-Shot-Capture-031-Pets-Club-Veterinaria-pets-club-vercel-app.png](https://i.postimg.cc/Mp1d7FdB/Fire-Shot-Capture-031-Pets-Club-Veterinaria-pets-club-vercel-app.png)](https://postimg.cc/TKYVGC82)
 
 
 ## Deploy 💻
@@ -29,12 +29,15 @@ https://danielatobar.atlassian.net/jira/software/projects/PET/boards/5/roadmap?s
 
 ## Build with 🛠️
 
-* [Tailwind CSS](https://tailwindcss.com/) - FrameWork.
+<img  src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+
+<img  src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+
 * [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start) - npm package.
 * [React-icons](https://react-icons.github.io/react-icons/)
 * [react-fast-marquee](https://www.npmjs.com/package/react-fast-marquee) - Slider.
 * [React Animated Slider](https://eb1.it/react-animated-slider/) - Slider.
-* [React](https://reactjs.org/) 
+
 
 ## Developers 😺
 * **Daniela Tobar Moreno** [GitHub](https://github.com/DanielaTob)
